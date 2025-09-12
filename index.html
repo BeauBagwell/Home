@@ -3,125 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website with Button Links</title>
+    <title>Quick Links</title>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        nav ul {
+            background-color: #f2f2f2;
             display: flex;
             justify-content: center;
-            list-style: none;
-            background: #444;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-            display: block;
-        }
-
-        nav ul li a:hover {
-            background-color: #555;
-        }
-
-        .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-            color: white;
-            padding: 100px 20px;
-            text-align: center;
-        }
-
-        .content {
-            padding: 40px 20px;
-            max-width: 1000px;
-            margin: auto;
-            text-align: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
 
         .button-group {
-            margin-top: 30px;
+            text-align: center;
         }
 
         .button-group a {
-            padding: 15px 30px;
-            margin: 10px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
             display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
             transition: background-color 0.3s ease;
         }
 
         .button-group a:hover {
             background-color: #0056b3;
         }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section class="hero">
-        <h2>Your Catchy Headline Here</h2>
-        <p>Something inspiring or useful about your site.</p>
-    </section>
-
-    <section class="content">
-        <h2>Quick Links</h2>
-        <p>Click the buttons below to visit popular websites:</p>
-
-        <div class="button-group">
-            <a href="https://www.youtube.com" target="_blank">Go to YouTube</a>
-            <a href="https://www.maxpreps.com" target="_blank">Go to MaxPreps</a>
-            <a href="https://www.gmail.com" target="_blank">Go to Gmail</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
+    <div class="button-group">
+        <a href="https://www.youtube.com" target="_blank">Go to YouTube</a>
+        <a href="https://www.maxpreps.com" target="_blank">Go to MaxPreps</a>
+        <a href="https://www.gmail.com" target="_blank">Go to Gmail</a>
+    </div>
 </body>
 </html>
