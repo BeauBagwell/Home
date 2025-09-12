@@ -11,16 +11,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             min-height: 100vh;
             margin: 0;
-        }
-
-        h1 {
-            font-size: 48px;
-            margin-bottom: 50px;
-            color: #333;
-            text-align: center;
+            padding-top: 40px;
         }
 
         .logo-buttons {
@@ -28,6 +22,7 @@
             gap: 40px;
             flex-wrap: wrap;
             justify-content: center;
+            margin-bottom: 40px;
         }
 
         .logo-buttons a img {
@@ -40,10 +35,17 @@
             transform: scale(1.1);
         }
 
+        h1 {
+            font-size: 48px;
+            color: #333;
+            text-align: center;
+        }
+
         /* Responsive scaling */
         @media (max-width: 600px) {
             h1 {
                 font-size: 36px;
+                margin: 0 20px;
             }
 
             .logo-buttons a img {
@@ -55,19 +57,19 @@
 </head>
 <body>
 
-    <h1>Beau Bagwell's Site</h1>
-
     <div class="logo-buttons">
         <a href="https://www.youtube.com" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+            <img src="https://www.freepnglogos.com/uploads/youtube-logo-png-transparent-image-5.png" alt="YouTube">
         </a>
         <a href="https://www.maxpreps.com" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/MaxPreps_logo.png" alt="MaxPreps">
+            <img src="https://seeklogo.com/images/M/maxpreps-logo-93B5C77AF8-seeklogo.com.png" alt="MaxPreps">
         </a>
         <a href="https://www.gmail.com" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.svg" alt="Gmail">
+            <img src="https://www.freepnglogos.com/uploads/gmail-logo-png/gmail-logo-png-transparent-background-5.png" alt="Gmail">
         </a>
     </div>
+
+    <h1>Beau Bagwell's Site</h1>
 
 </body>
 </html>
