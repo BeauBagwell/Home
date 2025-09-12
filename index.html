@@ -8,21 +8,27 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start;
-            min-height: 100vh;
-            margin: 0;
-            padding-top: 40px;
+        }
+
+        h1 {
+            margin-top: 60px;
+            font-size: 48px;
+            color: #333;
+            text-align: center;
         }
 
         .logo-buttons {
             display: flex;
-            gap: 40px;
-            flex-wrap: wrap;
             justify-content: center;
-            margin-bottom: 40px;
+            align-items: center;
+            gap: 60px;
+            margin-top: 50px;
+            flex-wrap: wrap;
         }
 
         .logo-buttons a img {
@@ -35,17 +41,10 @@
             transform: scale(1.1);
         }
 
-        h1 {
-            font-size: 48px;
-            color: #333;
-            text-align: center;
-        }
-
-        /* Responsive scaling */
         @media (max-width: 600px) {
             h1 {
-                font-size: 36px;
-                margin: 0 20px;
+                font-size: 32px;
+                margin: 40px 20px 20px;
             }
 
             .logo-buttons a img {
@@ -57,19 +56,19 @@
 </head>
 <body>
 
+    <h1>Beau Bagwell's Site</h1>
+
     <div class="logo-buttons">
         <a href="https://www.youtube.com" target="_blank">
-            <img src="https://www.freepnglogos.com/uploads/youtube-logo-png-transparent-image-5.png" alt="YouTube">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/YouTube_social_white_square_(2017).svg/1024px-YouTube_social_white_square_(2017).svg.png" alt="YouTube">
         </a>
         <a href="https://www.maxpreps.com" target="_blank">
-            <img src="https://seeklogo.com/images/M/maxpreps-logo-93B5C77AF8-seeklogo.com.png" alt="MaxPreps">
+            <img src="https://assets.brandfolder.com/pl546j-7le8zk-afym18/original/MaxPreps-Logo.png" alt="MaxPreps">
         </a>
         <a href="https://www.gmail.com" target="_blank">
-            <img src="https://www.freepnglogos.com/uploads/gmail-logo-png/gmail-logo-png-transparent-background-5.png" alt="Gmail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/New_Logo_Gmail.png" alt="Gmail">
         </a>
     </div>
-
-    <h1>Beau Bagwell's Site</h1>
 
 </body>
 </html>
